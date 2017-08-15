@@ -1,0 +1,16 @@
+# Eclipse files
+.project
+.cproject
+.metadata
+.settings
+
+# Generated
+*.o
+*.d
+*.a
+*.lo
+*.la
+*.elf
+*.lst
+*.map
+
