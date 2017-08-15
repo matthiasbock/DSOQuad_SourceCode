@@ -2,11 +2,9 @@
  File Name : Function.c  
  Version   : DS203 APP Ver 2.5x                          Author : bure & Kewei
 *******************************************************************************/
-#include "../../app/include/BIOS.h"
-#include "../../application/include/Function.h"
-
-#include "../../application/include/BIOS.h"
-#include "../../application/include/Interrupt.h"
+#include <BIOS.h>
+#include <Function.h>
+#include <Interrupt.h>
 
 u32 TestCnt = 0;
 

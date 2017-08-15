@@ -2,12 +2,10 @@
  File Name : Interrupt.c  
  Version   : DS203_APP Ver 2.3x                                  Author : bure
 *******************************************************************************/
-#include "../../app/include/BIOS.h"
-#include "../../application/include/Interrupt.h"
-
-#include "../../application/include/BIOS.h"
-#include "../../application/include/Function.h"
-#include "../../application/include/Menu.h"
+#include <BIOS.h>
+#include <Interrupt.h>
+#include <Function.h>
+#include <Menu.h>
 
 vu8  Cursor_Cnt, Key_Wait_Cnt, Key_Repeat_Cnt, Key_Buffer, Cnt_mS, Cnt_20mS;
 vu8  Twink, Blink;

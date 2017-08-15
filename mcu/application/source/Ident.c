@@ -2,12 +2,10 @@
  File Name : Authenticate.c  
  Version   : DS203_APP Ver 2.3x                                  Author : bure
 *******************************************************************************/
-#include "../../app/include/BIOS.h"
-#include "../../application/include/Ident.h"
-
-#include "../../application/include/BIOS.h"
-#include "../../application/include/Function.h"
-#include "../../application/include/Interrupt.h"
+#include <BIOS.h>
+#include <Ident.h>
+#include <Function.h>
+#include <Interrupt.h>
 
 /************************** Licence Block defination ***************************
 offset 0x00~0x03: ProjectID 4Bytes (example:  0x12345678)  

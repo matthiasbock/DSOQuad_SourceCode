@@ -2,15 +2,14 @@
  File Name : Process.c       
  Version   : DS203_APP Ver 2.3x                                  Author : bure
 *******************************************************************************/
-#include "../../application/include/Process.h"
 
-#include "../../app/include/BIOS.h"
-#include "../../app/include/Draw.h"
-#include "../../application/include/BIOS.h"
-#include "../../application/include/File.h"
-#include "../../application/include/Function.h"
-#include "../../application/include/Interrupt.h"
-#include "../../application/include/Menu.h"
+#include <BIOS.h>
+#include <Draw.h>
+#include <File.h>
+#include <Function.h>
+#include <Interrupt.h>
+#include <Menu.h>
+#include <Process.h>
 
 u16 TaS, TbS, TcS, TdS;            // �����ۼ�
 u16 PaS, PbS, PcS, PdS;            // �����ۼ�

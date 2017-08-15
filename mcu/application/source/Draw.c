@@ -2,12 +2,10 @@
  File Name : Draw.c       
  Version   : DS203_APP Ver 2.3x                                  Author : bure
 *******************************************************************************/
-#include "../../app/include/BIOS.h"
-#include "../../application/include/Draw.h"
-
-#include "../../application/include/BIOS.h"
-#include "../../application/include/Menu.h"
-#include "../../application/include/Process.h"
+#include <BIOS.h>
+#include <Draw.h>
+#include <Menu.h>
+#include <Process.h>
 
 uc16 RULE_BASE [8] ={0x020,0x040,0x080,0x040,0x020,0x010,0x008,0x010};
 

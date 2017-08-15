@@ -2,15 +2,15 @@
  File Name : Main.c  
  Version   : DS203_APP Ver 2.5x                                  Author : bure
 *******************************************************************************/
-#include "../../application/include/BIOS.h"
-#include "../../application/include/Calibrat.h"
-#include "../../application/include/Draw.h"
-#include "../../application/include/File.h"
-#include "../../application/include/Function.h"
-#include "../../application/include/Ident.h"
-#include "../../application/include/Interrupt.h"
-#include "../../application/include/Menu.h"
-#include "../../application/include/Process.h"
+#include <BIOS.h>
+#include <Calibrat.h>
+#include <Draw.h>
+#include <File.h>
+#include <Function.h>
+#include <Ident.h>
+#include <Interrupt.h>
+#include <Menu.h>
+#include <Process.h>
 
 /*******************************************************************************
 �汾�޸�˵��

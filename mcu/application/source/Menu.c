@@ -2,15 +2,14 @@
  File Name : Menu.c  
  Version   : DS203_APP Ver 2.5x                                  Author : bure
 *******************************************************************************/
-#include "../../application/include/Menu.h"
-
 #include <string.h>
 
-#include "../../application/include/BIOS.h"
-#include "../../application/include/Draw.h"
-#include "../../application/include/Function.h"
-#include "../../application/include/Interrupt.h"
-#include "../../application/include/Process.h"
+#include <BIOS.h>
+#include <Draw.h>
+#include <Function.h>
+#include <Interrupt.h>
+#include <Process.h>
+#include <Menu.h>
 
 //I32STR_RES Num;
 
